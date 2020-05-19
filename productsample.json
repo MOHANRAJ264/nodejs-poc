@@ -1,0 +1,240 @@
+[{
+        "name": "I phone 11",
+        "price": 150000,
+        "category": "mobiles",
+        "specification": {
+            "ram": "6 gb",
+            "memory": "128 gb",
+            "display size": "6 inch",
+            "camera": "64 mp"
+
+        },
+        "description": "A brand new iphone 11",
+        "quantity": 30,
+        "in_stock": true,
+        "warranty": "1 year"
+    },
+    {
+        "name": "Redmi note 6 pro",
+        "price": 15000,
+        "category": "mobiles",
+        "specification": {
+            "ram": "4 gb",
+            "memory": "64 gb",
+            "display size": "6.3 inch",
+            "camera": "21 mp"
+        },
+        "description": "A brand new redmi mobile",
+        "quantity": 218,
+        "in_stock": true,
+        "warranty": "1 year"
+    },
+    {
+        "name": "samsung galaxy note 10",
+        "price": 100000,
+        "category": "mobiles",
+        "specification": {
+            "ram": "6 gb",
+            "memory": "128 gb",
+            "display size": "6.5 inch",
+            "camera": "48 mp"
+        },
+        "description": "A brand new samsung mobile",
+        "quantity": 25,
+        "in_stock": true,
+        "warranty": "1 year"
+
+    },
+    {
+        "name": "Nokia 8",
+        "price": 20000,
+        "category": "mobiles",
+        "specification": {
+            "ram": "2 gb",
+            "memory": "32 gb",
+            "display size": "5 inch",
+            "camera": "8 mp"
+        },
+        "description": "A brand new nokia mobile",
+        "quantity": 10,
+        "in_stock": true,
+        "warranty": "1 year"
+    },
+    {
+        "name": "Boat headphone",
+        "price": 1999,
+        "category": "mobile accessories",
+        "specification": {
+            "type": "wireless",
+            "bluetooth": "yes"
+        },
+        "description": "Boat rockers 225 headphone",
+        "quantity": 5,
+        "in_stock": true,
+        "warranty": "1 year"
+    },
+    {
+        "name": "samsung charger",
+        "price": 1000,
+        "category": "mobile accessories",
+        "specification": {
+            "type": "usb to type c",
+            "amps": "2 amps"
+        },
+        "description": "samsung type c charger",
+        "quantity": 500,
+        "in_stock": true,
+        "warranty": "6 month"
+    },
+    {
+        "name": "Tempered class",
+        "price": 100,
+        "category": "mobile accessories",
+        "specification": {
+            "model": "redmi note 6",
+            "type": "full tempered",
+            "thickness": "2.5mm"
+        },
+        "description": "stempered class for redmi mobile",
+        "quantity": 300,
+        "in_stock": true,
+        "warranty": "nill"
+    },
+    {
+        "name": "case cover",
+        "price": 150,
+        "category": "mobile accessories",
+        "specification": {
+            "model": "iphone 11",
+            "material": "silicon"
+        },
+        "description": "designer case over for iphone 11",
+        "quantity": 700,
+        "in_stock": true,
+        "warranty": "nill"
+    },
+    {
+        "name": "Dell laptop",
+        "price": 50000,
+        "category": "laptop",
+        "specification": {
+            "brand": "dell",
+            "display": "15.6 inch",
+            "ram": "4 gb",
+            "memory": "1 tb",
+            "processsor": "i3",
+            "os": "windows 7"
+        },
+        "description": "dell inspiron 555 series",
+        "quantity": 78,
+        "in_stock": true,
+        "warranty": "1 year"
+    },
+    {
+        "name": "MAC book",
+        "price": 200000,
+        "category": "laptop",
+        "specification": {
+            "brand": "apple",
+            "display": "15.6 inch",
+            "ram": "4 gb",
+            "memory": "500 gb",
+            "processsor": "i7",
+            "os": "ios"
+        },
+        "description": "latest mac series",
+        "quantity": 108,
+        "in_stock": true,
+        "warranty": "1 year"
+    },
+    {
+        "name": "sony laptop",
+        "price": 210000,
+        "category": "laptop",
+        "specification": {
+            "brand": "sony",
+            "display": "10.6 inch",
+            "ram": "8 gb",
+            "memory": "2 tb",
+            "processsor": "i7",
+            "os": "windows 10"
+        },
+        "description": "sony leptop ",
+        "quantity": 69,
+        "in_stock": true,
+        "warranty": "1 year"
+    },
+    {
+        "name": "lenova laptop",
+        "price": 45999,
+        "category": "laptop",
+        "specification": {
+            "brand": "lenova",
+            "display": "10.6 inch",
+            "ram": "6 gb",
+            "memory": "1 tb",
+            "processsor": "i5",
+            "os": "windows 10"
+        },
+        "description": "lenova laptop with hd camera ",
+        "quantity": 69,
+        "in_stock": true,
+        "warranty": "1 year"
+    },
+    {
+        "name": "laptop speaker",
+        "price": 1499,
+        "category": "laptop accessories",
+        "specification": {
+            "brand": "jbl",
+            "watts": "20 watts",
+            "bluetooth": "no"
+        },
+        "description": "laptop speaker with great sound effect ",
+        "quantity": 19,
+        "in_stock": true,
+        "warranty": "1 year"
+    },
+    {
+        "name": "keyboard",
+        "price": 499,
+        "category": "laptop accessories",
+        "specification": {
+            "brand": "hp",
+            "type": "wireless"
+        },
+        "description": "wireless keyboard with multimedia keys ",
+        "quantity": 476,
+        "in_stock": true,
+        "warranty": "6 months"
+    },
+
+    {
+        "name": "mouse",
+        "price": 299,
+        "category": "laptop accessories",
+        "specification": {
+            "brand": "mi",
+            "type": "wireless"
+        },
+        "description": "wireless mouse with 2.4ghz reciever ",
+        "quantity": 651,
+        "in_stock": true,
+        "warranty": "6 months"
+    },
+    {
+        "name": "bag",
+        "price": 799,
+        "category": "laptop accessories",
+        "specification": {
+            "brand": "lenova"
+        },
+        "description": "laptop bag for 15.6 inch ",
+        "quantity": 98,
+        "in_stock": true,
+        "warranty": "nill"
+    }
+
+
+
+]
