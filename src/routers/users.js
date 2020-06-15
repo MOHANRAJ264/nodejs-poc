@@ -12,7 +12,7 @@ const {
     clearcart,
     upload,
     addpicture
-
+ 
 } = require('../controlers/user')
 const auth = require('../middleware/auth')
 
