@@ -14,6 +14,13 @@ const productschema = new mongoose.Schema({
             }
         }
     },
+    mrp:{
+        type:Number,
+        required:true,
+    },
+    image:{
+        type:String,
+    },
     category: {
         type: String,
         enum: ['mobiles', 'mobile accessories', 'laptop', 'laptop accessories']
@@ -22,9 +29,6 @@ const productschema = new mongoose.Schema({
         type: String,
         required: true
     },
-    specification: [{
-        type: Object,
-    }],
     warranty: {
         type: String,
         default: "nill"

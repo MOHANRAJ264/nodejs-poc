@@ -7,9 +7,10 @@ const productrouter = require('./routers/products')
 const Order = require('./models/order')
 const orderrouter = require('./routers/orders')
 const app = express()
+const cors = require('cors');
 
-
-app.use(express.json())
+app.use(cors());
+app.use(express.json());
 app.use(userrouter)
 app.use(productrouter)
 app.use(orderrouter)

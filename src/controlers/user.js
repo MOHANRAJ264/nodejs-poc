@@ -21,7 +21,7 @@ const createuser = async(req, res) => {
     }
 
 }
-const loginuser = async(req, res) => {
+const loginuser = async(req, res) => { console.log({b:req.body,h:req.headers})
     try {
         const user = await User.findByCredentials(req.body.email, req.body.password)
         const token = await user.generatetoken()
@@ -86,8 +86,9 @@ const deleteaccount = async(req, res) => {
     }
 }
 const addcart = async(req, res) => {
-    const _id = mongoose.Types.ObjectId(req.body.cart.id)
-    const quantity = req.body.cart.quantity
+    const _id = mongoose.Types.ObjectId(req.body.prodid)
+    const quantity = req.body.quantity
+    const userId = mongoose.Types.ObjectId(req.user._id)
     await Product.findById({ _id }, (err, product) => {
 
         if (err) {
@@ -99,13 +100,39 @@ const addcart = async(req, res) => {
         if (quantity > product.quantity) {
             return res.status(404).send('error:no stock available try for less quantity')
         }
-
+         let check=false
+        // req.user.cart.map(item=>{
+        // //console.log(item.product_id.toString())
+        // if(item.product_id.toString()==product._id.toString())
+        //     check=true
+        //     console.log(check)
+        
+        // })
+console.log(product)
+        for(let i=0 ; i<req.user.cart.length;i++){
+           if(product._id.toString()==req.user.cart[i].product_id.toString()){
+               if(quantity===1){
+            req.user.cart[i].quantity=req.user.cart[i].quantity+1
+            req.user.cart[i].total=req.user.cart[i].quantity * product.price
+               }
+               if(quantity === -1){
+            req.user.cart[i].quantity=req.user.cart[i].quantity-1
+            req.user.cart[i].total=req.user.cart[i].quantity * product.price
+               }
+            check=true
+            //User.findByIdAndUpdate({_id:userId},{$set:{"cart.quantity":req.user.cart[i].quantity+1}})
+                //console.log(check)
+            }
+        }
+        if(check=== false){
         req.user.cart.push({
             product_id: product._id,
+            name:product.name,
             quantity: quantity,
             price: product.price,
             total: (product.price * quantity)
         });
+    }
     })
     try {
         await req.user.save()
@@ -114,7 +141,6 @@ const addcart = async(req, res) => {
         res.status(400).send()
     }
 }
-
 
 
 
@@ -128,6 +154,16 @@ const mycart = async(req, res) => {
 
 }
 
+const removecart = async (req,res)=>{
+    const userId = mongoose.Types.ObjectId(req.user._id)
+    const prodId = mongoose.Types.ObjectId(req.body._id)
+  await  User.updateOne( {_id:userId}, { $pull: {"cart": {"product_id":prodId} } } )
+  try{
+      res.status(200).send(req.user.cart)
+  }catch(error){
+      res.status(400).send(error)
+  }
+}
 const clearcart = async(req, res) => {
     req.user.cart = new Array()
     try {
@@ -159,7 +195,15 @@ const addpicture = async(req, res) => {
         res.status(400).send('error:unable to add picture')
     }
 }
+
+// const testfun = (req, res) =>{
+//     console.log(req.body);
+//     const { Authorization } = req.headers;
+//     res.status(200).json({name:"test"});
+// }
+
 module.exports = {
+    
     createuser,
     loginuser,
     logoutuser,
@@ -171,6 +215,7 @@ module.exports = {
     mycart,
     clearcart,
     upload,
-    addpicture
+    addpicture,
+    removecart
 
 }

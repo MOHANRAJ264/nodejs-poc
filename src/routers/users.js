@@ -11,7 +11,9 @@ const {
     mycart,
     clearcart,
     upload,
-    addpicture
+    addpicture,
+    removecart
+    //testfun
  
 } = require('../controlers/user')
 const auth = require('../middleware/auth')
@@ -19,8 +21,8 @@ const auth = require('../middleware/auth')
 
 const router = new express.Router()
 
-//const multer = require('multer');  //to insert image and documents
-//const sharp = require('sharp'); // resize image and validation
+const multer = require('multer');  //to insert image and documents
+const sharp = require('sharp'); // resize image and validation
 //const welcomeemail = require('../emails/account')
 
 router.post('/api/users/signup', createuser)
@@ -33,10 +35,12 @@ router.delete('/api/users/delete-account', auth, deleteaccount)
 router.patch('/api/users/addcart', auth, addcart)
 router.get('/api/users/mycart', auth, mycart)
 router.patch('/api/users/clearcart', auth, clearcart)
+router.patch('/api/users/removecart', auth, removecart)
+
 
 router.post('/api/users/profile_picture/change', auth, upload.single('profile_picture'), addpicture)
 
-
+//router.post('/api/user/testfun',testfun);
 
 
 

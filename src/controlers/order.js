@@ -25,7 +25,8 @@ const neworder = async(req, res) => {
                 item: req.user.cart[i].product_id,
                 quantity: req.user.cart[i].quantity,
                 price: req.user.cart[i].price,
-                total: req.user.cart[i].total
+                total: req.user.cart[i].total,
+                name:req.user.cart[i].name
 
             })
             const quant = product.quantity - quantity
@@ -39,6 +40,7 @@ const neworder = async(req, res) => {
 
         })
 
+        
     }
     try {
         req.user.cart = new Array()

@@ -1,240 +1,268 @@
 [{
-        "name": "I phone 11",
-        "price": 150000,
+        "name": "I PHONE x",
+        "price": 79990,
+        "mrp":89990,
         "category": "mobiles",
-        "specification": {
-            "ram": "6 gb",
-            "memory": "128 gb",
-            "display size": "6 inch",
-            "camera": "64 mp"
-
-        },
-        "description": "A brand new iphone 11",
-        "quantity": 30,
+        "description": "The iPhone X has an OLED display which measures 5.8 inches diagonally. Apple calls this a Super Retina Display. It has a contrast ratio (the difference between the brightest a screen can be, and the darkest) of 1,000,000:1. It is also very sharp, with a resolution of 2436-by-1125. It is also able to change its color temperature using True Tone. According to Greg Joswiak, Apple's vice president of product marketing, the screens Apple used in the iPhone X were made to avoid the oversaturation of colors that are displayed on most OLED panels by adjusting color so that it doesn't look too saturated or very intense",
+        "quantity": 1000,
         "in_stock": true,
-        "warranty": "1 year"
+        "warranty": "1 year",
+        "image":"iphonex.jpg"
     },
     {
-        "name": "Redmi note 6 pro",
-        "price": 15000,
+        "name": "MI 10",
+        "price": 49999,
+        "mrp":54999,
         "category": "mobiles",
-        "specification": {
-            "ram": "4 gb",
-            "memory": "64 gb",
-            "display size": "6.3 inch",
-            "camera": "21 mp"
-        },
-        "description": "A brand new redmi mobile",
-        "quantity": 218,
+        "description": "Xiaomi has made a bold move by launching the Mi 10 5G in India. The curved glass on the front and back of this phone looks classy. This, coupled with the high-gloss finish makes it striking to look at. The Mi 10 5G has a 6.67-inch AMOLED screen and is sharp enough, but the resolution is full-HD+ (2340x1080). The display also runs at 90Hz, which is a big trend right now.",
+        "quantity": 1000,
         "in_stock": true,
-        "warranty": "1 year"
+        "warranty": "1 year",
+        "image":"mi10.jpg"
     },
     {
-        "name": "samsung galaxy note 10",
-        "price": 100000,
+        "name": "SAMSUNG GALACY S20+",
+        "price": 77999,
+        "mrp":80000,
         "category": "mobiles",
-        "specification": {
-            "ram": "6 gb",
-            "memory": "128 gb",
-            "display size": "6.5 inch",
-            "camera": "48 mp"
-        },
-        "description": "A brand new samsung mobile",
-        "quantity": 25,
+        "description": "The Samsung Galaxy S20+ is the middle child in the trio and is the successor to the Galaxy S10+. It features a 6.7-inch QHD+ display, with excellent brightness and colours reproduction. The curved sides and glass back gives it a very premiium look and feel. It also supports wireless charging and is IP68 certified for dust and water resistance. ",
+        "quantity": 1000,
         "in_stock": true,
-        "warranty": "1 year"
-
+        "warranty": "1 year",
+        "image":"samsung.jpg"
     },
     {
-        "name": "Nokia 8",
-        "price": 20000,
+        "name": "ONEPLUS 7T",
+        "price": 36999,
+        "mrp":37999,
         "category": "mobiles",
-        "specification": {
-            "ram": "2 gb",
-            "memory": "32 gb",
-            "display size": "5 inch",
-            "camera": "8 mp"
-        },
-        "description": "A brand new nokia mobile",
-        "quantity": 10,
+        "description": "OnePlus has taken a bunch of features from the more expensive OnePlus 7 Pro and put them into the OnePlus 7T, which is the successor to the OnePlus 7. To add to this confusion, the older two models have only been on the market for around four months prior to this launch. While some buyers will love having more features and power, there are others who will be disappointed that this company has raised the price of its base model yet again. ",
+        "quantity": 1000,
         "in_stock": true,
-        "warranty": "1 year"
+        "warranty": "1 year",
+        "image":"oneplus.jpg"
     },
     {
-        "name": "Boat headphone",
-        "price": 1999,
-        "category": "mobile accessories",
-        "specification": {
-            "type": "wireless",
-            "bluetooth": "yes"
-        },
-        "description": "Boat rockers 225 headphone",
-        "quantity": 5,
+        "name": "OPPO K1",
+        "price": 13990,
+        "mrp":20990,
+        "category": "mobiles",
+        "description": "Oppo has taken a bunch of features from the more expensive Oppo k1 and put them into the OnePlus 7T, which is the successor to the OnePlus 7. To add to this confusion, the older two models have only been on the market for around four months prior to this launch. While some buyers will love having more features and power, there are others who will be disappointed that this company has raised the price of its base model yet again. ",
+        "quantity": 1000,
         "in_stock": true,
-        "warranty": "1 year"
+        "warranty": "1 year",
+        "image":"oppo.jpg"
     },
     {
-        "name": "samsung charger",
-        "price": 1000,
-        "category": "mobile accessories",
-        "specification": {
-            "type": "usb to type c",
-            "amps": "2 amps"
-        },
-        "description": "samsung type c charger",
-        "quantity": 500,
+        "name": "VIVO Z1 PRO",
+        "price": 16990,
+        "mrp":20990,
+        "category": "mobiles",
+        "description": "vivo has taken a bunch of features from the more expensive vivoz 1 Pro and put them into the OnePlus 7T, which is the successor to the OnePlus 7. To add to this confusion, the older two models have only been on the market for around four months prior to this launch. While some buyers will love having more features and power, there are others who will be disappointed that this company has raised the price of its base model yet again. ",
+        "quantity": 1000,
         "in_stock": true,
-        "warranty": "6 month"
+        "warranty": "1 year",
+        "image":"vivo.jpg"
     },
     {
-        "name": "Tempered class",
-        "price": 100,
-        "category": "mobile accessories",
-        "specification": {
-            "model": "redmi note 6",
-            "type": "full tempered",
-            "thickness": "2.5mm"
-        },
-        "description": "stempered class for redmi mobile",
-        "quantity": 300,
-        "in_stock": true,
-        "warranty": "nill"
-    },
-    {
-        "name": "case cover",
-        "price": 150,
-        "category": "mobile accessories",
-        "specification": {
-            "model": "iphone 11",
-            "material": "silicon"
-        },
-        "description": "designer case over for iphone 11",
-        "quantity": 700,
-        "in_stock": true,
-        "warranty": "nill"
-    },
-    {
-        "name": "Dell laptop",
-        "price": 50000,
-        "category": "laptop",
-        "specification": {
-            "brand": "dell",
-            "display": "15.6 inch",
-            "ram": "4 gb",
-            "memory": "1 tb",
-            "processsor": "i3",
-            "os": "windows 7"
-        },
-        "description": "dell inspiron 555 series",
-        "quantity": 78,
-        "in_stock": true,
-        "warranty": "1 year"
-    },
-    {
-        "name": "MAC book",
-        "price": 200000,
-        "category": "laptop",
-        "specification": {
-            "brand": "apple",
-            "display": "15.6 inch",
-            "ram": "4 gb",
-            "memory": "500 gb",
-            "processsor": "i7",
-            "os": "ios"
-        },
-        "description": "latest mac series",
-        "quantity": 108,
-        "in_stock": true,
-        "warranty": "1 year"
-    },
-    {
-        "name": "sony laptop",
-        "price": 210000,
-        "category": "laptop",
-        "specification": {
-            "brand": "sony",
-            "display": "10.6 inch",
-            "ram": "8 gb",
-            "memory": "2 tb",
-            "processsor": "i7",
-            "os": "windows 10"
-        },
-        "description": "sony leptop ",
-        "quantity": 69,
-        "in_stock": true,
-        "warranty": "1 year"
-    },
-    {
-        "name": "lenova laptop",
-        "price": 45999,
-        "category": "laptop",
-        "specification": {
-            "brand": "lenova",
-            "display": "10.6 inch",
-            "ram": "6 gb",
-            "memory": "1 tb",
-            "processsor": "i5",
-            "os": "windows 10"
-        },
-        "description": "lenova laptop with hd camera ",
-        "quantity": 69,
-        "in_stock": true,
-        "warranty": "1 year"
-    },
-    {
-        "name": "laptop speaker",
+        "name": "BOAR ROCKERS 400 ",
         "price": 1499,
-        "category": "laptop accessories",
-        "specification": {
-            "brand": "jbl",
-            "watts": "20 watts",
-            "bluetooth": "no"
-        },
-        "description": "laptop speaker with great sound effect ",
-        "quantity": 19,
+        "mrp":1999,
+        "category": "mobile accessories",
+        "description": "The Boat Rockerz 400 is available in four colour options; Carbon Black, Black/ Red, Black/ Blue, and Grey/ Green. The Rockerz 400 has 40mm drivers with 32 Ohms impedance ratings and a frequency response range of 20Hz-20KHz. It has a 250mAh battery and a claimed battery life of 8 hours.",
+        "quantity": 1000,
         "in_stock": true,
-        "warranty": "1 year"
+        "warranty": "1 year",
+        "image":"boat.jpg"
     },
     {
-        "name": "keyboard",
+        "name": "MI 18W CHARGER",
+        "price": 999,
+        "mrp":1200,
+        "category": "mobile accessories",
+        "description": "Designed for Mi(Redmi 5A/Redmi note 4/Redmi Note 5/Redmi Note 5 pro), OPPO(F3/F3 Plus/F7), Samsung galaxy(J3 pro/On Nxt/On5), Infinix(hot 4 Pro/Note 4/), Lava( A52), Asus (Zenfone/Zenfone 3_max), Samsung Guru Music 2, Honor( 7A/9/9 lite/ Holloy 3), Micromax (Spark 4g), VIVO(V9/V9 Plus), iVooMi I2, Motorola Moto( E4 plus/G5s/G6 Play), Yu(Yunique 2 /2 Plus)",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "6 month",
+        "image":"micharger.jpg"
+    },
+    {
+        "name": "TEMPERED GLASS",
+        "price": 99,
+        "mrp":119,
+        "category": "mobile accessories",
+        "description": "Hupshy Full Tempered Glass Screen Protector is designed to perfectly fit to your Realme Narzo 10A smartphone. It has very easy application, leaving no bubbles, and having no glare. Its Oleophobic coating helps reduce visibility of fingerprints and other contaminants, making it easy to quickly clean the screen. Measuring in at just 0.3mm thick, our Premium GLASS Screen Protector is scratch and wear resistant, and also has glare reducing capabilities. Designed to be extremely tough and durable, Installation is also a breeze. Align the screen protector on top of the device, push down on the tempered glass and allow the adhesive to work its magic.",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "nill",
+        "image":"temperedglass.jpg"
+    },
+    {
+        "name": "CASE COVER",
+        "price": 149,
+        "mrp":199,
+        "category": "mobile accessories",
+        "description": "Stealth Defence Back Case [With Shock Protection & Built-in Stand] - Matte Black The Stealth Defence Back Case is the best case can get! Its matte black stealth finish is completely black and is stunning. The surface has a special anti-fingerprint coating to avoid fingerprint marks. The Stealth Defence Cover also features double layer of protection for the device. The outer tough polycarbonate layer protects the device from shocks",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "nill",
+        "image":"casecover.jpg"
+    },
+    {
+        "name": "MEMORY CARD",
         "price": 499,
-        "category": "laptop accessories",
-        "specification": {
-            "brand": "hp",
-            "type": "wireless"
-        },
-        "description": "wireless keyboard with multimedia keys ",
-        "quantity": 476,
+        "mrp":520,
+        "category": "mobile accessories",
+        "description": "Sandisk 32 gb memory card type class 10. which can tranfer 100mb/s",
+        "quantity": 1000,
         "in_stock": true,
-        "warranty": "6 months"
+        "warranty": "nill",
+        "image":"memorycard.jpg"
+    },
+    {
+        "name": "OTG CABLE",
+        "price": 49,
+        "mrp":80,
+        "category": "mobile accessories",
+        "description": "Elora otg cable. which can tranfer 100mb/s. Compatible with all mobiles",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "nill",
+        "image":"otg.jpg"
+    },
+    {
+        "name": "Dell VOSTRO ",
+        "price": 27490,
+        "mrp":32120,
+        "category": "laptop",
+        "description": "Dell Inspiron 3467 is a Windows 10 Home laptop with a 14.00-inch display that has a resolution of 1366x768 pixels. It is powered by a Core i3 processor and it comes with 4GB of RAM. The Dell Inspiron 3467 packs 1TB of HDD storage.",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "1 year",
+        "image":"dell.jpg"
+    },
+    {
+        "name": "MACBOOK AIR",
+        "price": 67500,
+        "mrp":80900,
+        "category": "laptop",
+        "description": "Apple MacBook Air MQD32HN/A is a macOS laptop with a 13.30-inch display that has a resolution of 1440x900 pixels. It is powered by a Core i5 processor and it comes with 8GB of RAM. The Apple MacBook Air MQD32HN/A packs 128GB of SSD storage",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "1 year",
+        "image":"macbook.jpg"
+    },
+    {
+        "name": "HP 15Q",
+        "price": 46990,
+        "mrp":50080,
+        "category": "laptop",
+        "description": "HP 15Q-DS0029TU is a Windows 10 Home laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 8GB of RAM. The HP 15Q-DS0029TU packs 1TB of HDD storage.",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "1 year",
+        "image":"hp.jpg"
+    },
+    {
+        "name": "ACER ASPIRE 7",
+        "price": 54990,
+        "mrp":79999,
+        "category": "laptop",
+        "description": "Acer Aspire 7 is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 16GB of RAM. The Acer Aspire 7 packs 512GB of SSD storage. ",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "1 year",
+        "image":"acer.jpg"
+    },
+    {
+        "name": "LENOVA IDEAPAD S145",
+        "price": 33990,
+        "mrp":34771,
+        "category": "laptop",
+        "description": "Lenova ideapad sq45 is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 16GB of RAM. The Acer Aspire 7 packs 512GB of SSD storage. ",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "1 year",
+        "image":"lenova.jpg"
+    },
+    {
+        "name": "ASUS VIVOBOOK",
+        "price": 27990,
+        "mrp":35060,
+        "category": "laptop",
+        "description": "Asus vivobook is a Windows 10 laptop with a 15.60-inch display that has a resolution of 1920x1080 pixels. It is powered by a Core i5 processor and it comes with 16GB of RAM. The Acer Aspire 7 packs 512GB of SSD storage. ",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "1 year",
+        "image":"asus.jpg"
+    },
+    {
+        "name": "lAPTOP SPERKER",
+        "price": 2999,
+        "mrp":4000,
+        "category": "laptop accessories",
+        "description": "Presenting HRX X-Boost 5T - built with a 6-Mode LED light technology, it lights up your mood in rhythm with the music it plays. The Bluetooth 5.0 gives it 2X times faster pairing power and a 4X times wider range. Being sweat-proof and splash-proof with an IPX5 rated portable design, it’s ideal for an outdoorsy, active lifestyle.",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "1 year",
+        "image":"speaker.jpg"
+    },
+    {
+        "name": "KEYBOARD",
+        "price": 899,
+        "mrp":1300,
+        "category": "laptop accessories",
+        "description": "MK235 Wireless Keyboard and Mouse Full-size. Durable. Simple.for Windows, Chrome OS, Linux ,Special Keys: 15 function keys accessible through fn key. ",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "6 months",
+        "image":"keyboard,jpg"
     },
 
     {
-        "name": "mouse",
-        "price": 299,
+        "name": "MOUSE",
+        "price": 499,
+        "mrp":600,
         "category": "laptop accessories",
-        "specification": {
-            "brand": "mi",
-            "type": "wireless"
-        },
-        "description": "wireless mouse with 2.4ghz reciever ",
-        "quantity": 651,
+        "description": "wireless mouse with 2.4ghz reciever. Support Windows XP / Vista / 7 / 8 / 10, Linux, and Mac 10 or Higher Version",
+        "quantity": 1000,
         "in_stock": true,
-        "warranty": "6 months"
+        "warranty": "6 months",
+        "image":"mouse.jpg"
     },
     {
-        "name": "bag",
+        "name": "BAG",
         "price": 799,
+        "mrp":1000,
         "category": "laptop accessories",
-        "specification": {
-            "brand": "lenova"
-        },
-        "description": "laptop bag for 15.6 inch ",
-        "quantity": 98,
+        "description": "W x H: 14 x 20 inch 30% Extra Storage We Indians tend to carry a lot of stuff in our backpacks, which is why this Billion backpack comes with spacious compartments. Maximised Comfort with Padded, Breathable Back System Its adjustable shoulder straps with padded air mesh and back padding ensure long-lasting comfort while carrying this backpack. ",
+        "quantity": 1000,
         "in_stock": true,
-        "warranty": "nill"
+        "warranty": "nill",
+        "image":"bag.jpg"
+    },
+    {
+        "name": "SOCKET EXTENSION BOARD",
+        "price": 1099,
+        "mrp":1999,
+        "category": "laptop accessories",
+        "description": "Designed with 4 Universal Socket to perform multiple activity at the same time. Individual 4 Switch for every socket ensure you have all your electronic equipment functioning separately ",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "nill",
+        "image":"extensionboard.jpg"
+    },
+    {
+        "name": "USB LED LIGHT",
+        "price": 149,
+        "mrp":199,
+        "category": "laptop accessories",
+        "description": "Usb led lights available in multi colore and compatible with all usb,ports ",
+        "quantity": 1000,
+        "in_stock": true,
+        "warranty": "nill",
+        "image":"ledlight.jpg"
     }
-
 
 
 ]

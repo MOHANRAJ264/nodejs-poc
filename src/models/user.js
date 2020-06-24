@@ -46,26 +46,24 @@ const userschema = new mongoose.Schema({
     },
     gender: {
         type: String,
-        enum: ['male', 'female']
     },
-    address: {
-        street: {
-            type: String,
-            required: true
-        },
-        city: {
-            type: String,
-            required: true
-        },
-        state: {
-            type: String,
-            required: true
-        },
-        zip: {
-            type: Number,
-            required: true
-        },
+    street: {
+        type: String,
+        required: true
+   },
+    city: {
+        type: String,
+        required: true
     },
+    state: {
+          type: String,
+            required: true
+    },
+   zip: {
+      type: Number,
+    required: true
+    },
+    
     tokens: [{
         token: {
             type: String,
@@ -82,6 +80,9 @@ const userschema = new mongoose.Schema({
         },
         quantity: {
             type: Number
+        },
+        name:{
+            type:String
         },
         price: {
             type: Number
